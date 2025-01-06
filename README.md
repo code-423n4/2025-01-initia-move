@@ -65,6 +65,8 @@ At its core, Initia reconstructs the entire technological stack, introducing a f
 	- Files:
     - x/move/* 
 
+Excluding all auto-generated files, tests, and mocks in all of the above scopes.
+
 ### Files out of scope
 
 - [Previous audit reports](https://github.com/Zellic/publications/blob/master/Initia%20-%20Zellic%20Audit%20Report.pdf)
