@@ -19,7 +19,9 @@ As such, wardens are encouraged to select the appropriate risk level carefully d
 
 # Overview
 
-[ ⭐️ SPONSORS: add info here ]
+Initia is a network for interwoven optimistic rollups; Initia is holistically rebuilding how the multichain system should look, feel, and operate.
+
+At its core, Initia reconstructs the entire technological stack, introducing a foundational Layer 1 blockchain integrated with the Layer 2 infrastructure. This integration fosters a tightly knit, interwoven ecosystem of modular networks. Owning the complete technological stack enables Initia to implement chain-level mechanisms that harmonize the economic interests of users, developers, Layer 2 app-chains, and the Layer 1 chain itself.
 
 ## Links
 
@@ -33,13 +35,35 @@ As such, wardens are encouraged to select the appropriate risk level carefully d
 
 # Scope
 
-### Files in scope
-
-*For sponsors that don't use the scoping tool: list all files in scope in the table below (along with hyperlinks) -- and feel free to add notes to emphasize areas of focus.*
-
-| Contract | SLOC | Purpose | Libraries used |  
-| ----------- | ----------- | ----------- | ----------- |
-| [contracts/folder/sample.sol](https://github.com/code-423n4/repo-name/blob/contracts/folder/sample.sol) | 123 | This contract does XYZ | [`@openzeppelin/*`](https://openzeppelin.com/contracts/) |
+- **VIP Modules**
+	- Repository: https://github.com/code-423n4/2025-01-initia-move/blob/main/vip-module
+  - Files
+    - sources/lock_staking.move
+    - sources/vesting.move
+    - sources/vault.move
+    - sources/tvl_manager.move
+    - sources/weight_vote.move
+    - sources/utils.move
+    - sources/operator.move
+    - sources/vip.move
+- **Usernames**
+	- Repository: https://github.com/code-423n4/2025-01-initia-move/blob/main/usernames-module
+  - Files:
+	  - sources/metadata.move
+	  - sources/name_service.move
+- **Move VM**
+	- Repository: https://github.com/initia-labs/movevm
+	- [Diff](https://github.com/initia-labs/movevm/compare/455fe586ea89fcf10afdaf0766da5151d163edc8...7096b76ba9705d4d932808e9c80b72101eafc0a8) from Git commit [455fe586ea89fcf10afdaf0766da5151d163edc8](https://github.com/initia-labs/movevm/tree/455fe586ea89fcf10afdaf0766da5151d163edc8) in main (base) to Git commit [7096b76ba9705d4d932808e9c80b72101eafc0a8](https://github.com/initia-labs/movevm/commit/7096b76ba9705d4d932808e9c80b72101eafc0a8) in main
+- **MiniMove**
+	- https://github.com/initia-labs/minimove
+	- Commit: [5d298bb96a4d19467178f06d56171c097773eed4](https://github.com/initia-labs/minimove/commit/b36d068a7faec31a59d56472e77a9785397f9663)
+  - Files:
+    - app/**
+- **Initia L1 (some minor move pieces in here)**
+	- Repository: https://github.com/initia-labs/initia
+	- Commit: [c79d3315f16e624f9a39641c52f63b3fc5e2881b](https://github.com/initia-labs/initia/commit/c79d3315f16e624f9a39641c52f63b3fc5e2881b)
+	- Files:
+    - x/move/* 
 
 ### Files out of scope
 

@@ -1,0 +1,13 @@
+[package]
+name = "Usernames"
+version = "0.0.1"
+
+[addresses]
+std = "0x1"
+initia_std = "0x1"
+usernames = "0x42cd8467b1c86e59bf319e5664a09b6b5840bb3fac64f5ce690b5041c530565a"
+pair = "0xdbf06c48af3984ec6d9ae8a9aa7dbb0bb1e784aa9b8c4a5681af660cf8558d7d"
+
+
+[dependencies]
+InitiaStdlib = { git = "https://github.com/initia-labs/movevm.git", subdir = "precompile/modules/initia_stdlib", rev = "b6320db6def0aa9438abdb0e7f3f5bda711c8081" }
