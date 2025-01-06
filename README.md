@@ -17,16 +17,6 @@ Two important notes about judging phase risk adjustments:
 
 As such, wardens are encouraged to select the appropriate risk level carefully during the submission phase.
 
-## Automated Findings / Publicly Known Issues
-
-The 4naly3er report can be found [here](https://github.com/code-423n4/2025-01-initia/blob/main/4naly3er-report.md).
-
-_Note for C4 wardens: Anything included in this `Automated Findings / Publicly Known Issues` section is considered a publicly known issue and is ineligible for awards._
-
-on minitswap, we have feature that a user execute a action to send ibc-ed asset to L2 and withdraw that L2 token bank to L1 to get the incentives. In that process, we have one known issue (but can be ignored) see https://github.com/initia-labs/movevm/pull/172#issue-2749432688.
-
-✅ SCOUTS: Please format the response above 👆 so its not a wall of text and its readable.
-
 # Overview
 
 [ ⭐️ SPONSORS: add info here ]
@@ -34,7 +24,6 @@ on minitswap, we have feature that a user execute a action to send ibc-ed asset 
 ## Links
 
 - **Previous audits:**  https://github.com/Zellic/publications/blob/master/Initia%20-%20Zellic%20Audit%20Report.pdf
-  - ✅ SCOUTS: If there are multiple report links, please format them in a list.
 - **Documentation:** https://initialabs-develop.mintlify.app/
 - **Website:** https://initia.xyz/
 - **X/Twitter:** https://x.com/initia
@@ -44,12 +33,7 @@ on minitswap, we have feature that a user execute a action to send ibc-ed asset 
 
 # Scope
 
-[ ✅ SCOUTS: add scoping and technical details here ]
-
 ### Files in scope
-- ✅ This should be completed using the `metrics.md` file
-- ✅ Last row of the table should be Total: SLOC
-- ✅ SCOUTS: Have the sponsor review and and confirm in text the details in the section titled "Scoping Q amp; A"
 
 *For sponsors that don't use the scoping tool: list all files in scope in the table below (along with hyperlinks) -- and feel free to add notes to emphasize areas of focus.*
 
@@ -58,7 +42,8 @@ on minitswap, we have feature that a user execute a action to send ibc-ed asset 
 | [contracts/folder/sample.sol](https://github.com/code-423n4/repo-name/blob/contracts/folder/sample.sol) | 123 | This contract does XYZ | [`@openzeppelin/*`](https://openzeppelin.com/contracts/) |
 
 ### Files out of scope
-✅ SCOUTS: List files/directories out of scope
+
+- [Previous audit reports](https://github.com/Zellic/publications/blob/master/Initia%20-%20Zellic%20Audit%20Report.pdf)
 
 # Additional context
 
@@ -68,33 +53,20 @@ on minitswap, we have feature that a user execute a action to send ibc-ed asset 
 2. authorization problem (especially signer permission)
 3. correctness of implementation (especially dex part)
 
-✅ SCOUTS: Please format the response above 👆 so its not a wall of text and its readable.
-
 ## Attack ideas (where to focus for bugs)
-In our ecosystem, we are using bridge hook a lot when we use IBC transfer. so want to user any possible attack when we use this bridge hook.
 
-and also in movevm, we have implemented json interface and json marshal unmarshal feature on move contract. It's kinda unique feature on move ecosystem, so good to focus on this part.
-
-✅ SCOUTS: Please format the response above 👆 so its not a wall of text and its readable.
+- In our ecosystem, we are using bridge hook a lot when we use IBC transfer. so want to user any possible attack when we use this bridge hook.
+- In movevm, we have implemented json interface and json marshal unmarshal feature on move contract. It's kinda unique feature on move ecosystem, so good to focus on this part.
 
 ## All trusted roles in the protocol
 
-governance account
-
-✅ SCOUTS: Please format the response above 👆 using the template below👇
-
-| Role                                | Description                       |
-| --------------------------------------- | ---------------------------- |
-| Owner                          | Has superpowers                |
-| Administrator                             | Can change fees                       |
+The Governance Account
 
 ## Describe any novel or unique curve logic or mathematical models implemented in the contracts:
 
 We have two dex implementations
   1. balancer dex (precompiles/modules/initia_stdlib/dex.move)
   2. stableswap (precompiles/modules/initia_stdlib/stableswap.move)
-
-✅ SCOUTS: Please format the response above 👆 so its not a wall of text and its readable.
 
 ## Running tests
 
@@ -106,8 +78,6 @@ cd ..
 git clone https://github.com/initia-labs/movevm
 cd movevm
 initiad move test --path ./precompiles/modules/initia_stdlib --statistics
-
-✅ SCOUTS: Please format the response above 👆 using the template below👇
 
 ```bash
 git clone https://github.com/code-423n4/2023-08-arbitrum
