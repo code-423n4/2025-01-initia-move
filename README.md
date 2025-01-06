@@ -1,10 +1,9 @@
 # Initia Move audit details
 - Total Prize Pool: $70,000 in USDC
-  - HM awards: $55,800 in USDC
+  - HM awards: $56,300 in USDC
   - QA awards: $2,300 in USDC
   - Judge awards: $6,800 in USDC
   - Validator awards: $4,600 in USDC 
-  - Scout awards: $500 in USDC
 - [Read our guidelines for more details](https://docs.code4rena.com/roles/wardens)
 - Starts January 7, 2025 20:00 UTC
 - Ends January 28, 2025 20:00 UTC
