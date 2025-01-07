@@ -80,7 +80,7 @@ Excluding all auto-generated files, tests, and mocks in all of the above scopes.
 
 ## Attack ideas (where to focus for bugs)
 
-- In our ecosystem, we are using bridge hook a lot when we use IBC transfer. so want to user any possible attack when we use this bridge hook.
+- In our ecosystem, we frequently use the bridge hook for IBC (Inter-Blockchain Communication) transfers. Therefore, we want to identify and mitigate any potential security vulnerabilities associated with the use of this bridge hook.
 - In movevm, we have implemented json interface and json marshal unmarshal feature on move contract. It's kinda unique feature on move ecosystem, so good to focus on this part.
 
 ## All trusted roles in the protocol
@@ -95,33 +95,26 @@ We have two dex implementations
 
 ## Running tests
 
+```bash
+# initia
 git clone https://github.com/initia-labs/initia
-cd initia
-make install
+(cd initia && make test)
 
-cd ..
+# movevm
 git clone https://github.com/initia-labs/movevm
-cd movevm
-initiad move test --path ./precompiles/modules/initia_stdlib --statistics
+(cd movevm && make test)
 
-```bash
-git clone https://github.com/code-423n4/2023-08-arbitrum
-git submodule update --init --recursive
-cd governance
-foundryup
-make install
-make build
-make sc-election-test
-```
-To run code coverage
-```bash
-make coverage
-```
-To run gas benchmarks
-```bash
-make gas
-```
+# run move tests
+(cd movevm && initiad move test --path ./precompiles/modules/initia_stdlib --statistics)
 
+# run vip tests
+git clone https://github.com/code-423n4/2025-01-initia-move
+(cd 2025-01-initia-move && initiad move test --path ./vip-module --statistics)
+
+# run usernames tests
+git clone https://github.com/code-423n4/2025-01-initia-move
+(cd 2025-01-initia-move && initiad move test --path ./usernames-module --statistics)
+```
 
 ## Miscellaneous
 Employees of Initia and employees' family members are ineligible to participate in this audit.
