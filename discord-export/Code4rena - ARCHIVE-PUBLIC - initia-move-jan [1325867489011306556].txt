@@ -1,0 +1,294 @@
+==============================================================
+Guild: Code4rena
+Channel: ARCHIVE-PUBLIC / initia-move-jan
+==============================================================
+
+[01/07/2025 14:12] itsmetechjay (pinned)
+👋 Hello and welcome to the** $70,000 in USDC Initia Move** audit channel!
+
+📆 Audit opens Tuesday, 07 January 2025 20:00 (20:00 UTC) and runs through Tuesday, 28 January 2025 20:00 (20:00 UTC) (21 days).
+
+Please give a warm welcome to the Initia team, particularly @beer-1 , @Leo.init, @ALPAC4, @Sawit, @hoon, and @Harvey who will be available for questions either here in the channel or via a PRIVATE thread. You can expect them to be available in GMT+7 and GMT+9 timezones.
+
+🤖 **Documentation bot assistance:** For general questions about the codebase, give our documentation bot a try, by tagging `@Docs Wolf` in any thread (private or public) and asking your question. The bot will make its best attempt to answer based on the codebase and documentation, and link you to relevant resources.  *Docs Wolf will be available when the audit is live.*
+
+We'll be posting relevant links, documentation, etc. here, so if you intend to participate in this audit, consider enabling notifications for this channel. 🐺 ⏰
+
+Audit Page: https://code4rena.com/audits/2025-01-initia-move
+
+
+[01/07/2025 14:12] itsmetechjay
+Pinned a message.
+
+
+[01/09/2025 17:39] itsmetechjay
+ℹ️ Wardens, FYI we've added @Harvey to the list of sponsor team members to tag in private threads if you have questions about the codebase.
+
+
+[01/09/2025 17:53] uaarrr
+@beer-1  @Leo.init  @ALPAC4   how can I get  ``initiad `` to use it like ``aptos move test`` to run tests for move ?
+
+
+[01/10/2025 02:54] ox1nteger
+Hello, you can use like `initiad move test`. it's almost same with aptos one.
+
+
+[01/10/2025 08:23] uaarrr
+How can I get ``initiad`` cli tool exactly ? I found a initia docs with step by step but it doesnt work for me to git clone and make install
+
+
+[01/10/2025 08:42] 0xluk3
+it builds in your $GOPATH in my case it was missing too
+
+{Reactions}
+❤️ (3) 
+
+[01/10/2025 08:43] 0xluk3
+so should be within ~/go/bin after make install
+
+{Reactions}
+❤️ (3) 👍🏻 
+
+[01/10/2025 09:13] uaarrr
+thanks for helping
+
+{Reactions}
+🫡 
+
+[01/12/2025 15:43] avoloder
+What is the point of usernames? Is this just like ens domain name?
+
+{Reactions}
+👍 
+
+[01/13/2025 01:55] ox1nteger
+yes. it's same with ENS
+
+
+[01/13/2025 14:44] evokid
+https://github.com/initia-labs/movevm all of it in scope or just the api? @Harvey  thanks
+
+{Embed}
+https://github.com/initia-labs/movevm
+GitHub - initia-labs/movevm
+Contribute to initia-labs/movevm development by creating an account on GitHub.
+Code4rena - ARCHIVE-PUBLIC - initia-move-jan [1325867489011306556].txt_Files/movevm-3B290
+
+
+[01/13/2025 14:52] evokid
+sorry @UAARRR i meant the sponsor
+
+{Reactions}
+👍 
+
+[01/13/2025 20:08] unnamedeth.lens
+@Harvey  can you make sure usernames modules test are working ??
+
+
+[01/14/2025 02:59] ox1nteger
+Are you referring to the test code within the module? By any chance, is there a test case that’s failing? cc @ALPAC4
+
+
+[01/14/2025 08:53] evokid
+@Harvey
+
+
+[01/14/2025 09:10] ox1nteger
+sry! @beer-1  will confirm this
+
+{Reactions}
+👍🏻 🙏🏻 
+
+[01/14/2025 09:33] .alpac4
+Fixed this!
+
+
+[01/14/2025 09:34] beer__1
+hey @evokid, all crates are the scope!
+
+{Reactions}
+thankyou (2) 
+
+[01/15/2025 09:40] agent3bood
+what IDE & plugin do you use?
+
+
+[01/15/2025 12:20] beer__1 (pinned)
+We are using same plugin with aptos one. for me, normally use vscode with [aptos-move-analyzer](https://marketplace.visualstudio.com/items?itemName=MoveBit.aptos-move-analyzer)
+
+{Embed}
+https://marketplace.visualstudio.com/items?itemName=MoveBit.aptos-move-analyzer
+aptos-move-analyzer - Visual Studio Marketplace
+Extension for Visual Studio Code - A language server and basic grammar for the Move programming language.
+Code4rena - ARCHIVE-PUBLIC - initia-move-jan [1325867489011306556].txt_Files/Microsoft.VisualStudio.Services.Icons-960AE.Default
+
+{Reactions}
+👍 (3) 
+
+[01/15/2025 16:39] 0xsorrynotsorry
+Pinned a message.
+
+{Reactions}
+hi5 (2) 
+
+[01/18/2025 02:09] _gegul
+Hello. Since this is my first time working with a blockchain protocol that is not EVM, I'm not quite sure how it works. Could you please explain how users can use the username-module and vip-module?
+
+
+[01/20/2025 07:13] ox1nteger
+here's a [doc](https://initialabs-develop.mintlify.app/home/core-concepts/vested-interest-program/introduction) sir.
+
+{Embed}
+https://initialabs-develop.mintlify.app/home/core-concepts/vested-interest-program/introduction
+VIP Introduction - Initia Docs
+
+{Reactions}
+✅ 🫡 
+
+[01/27/2025 13:13] _riazul
+Hey, @Harvey , @beer-1 can u please check the private thread
+
+
+[01/28/2025 20:02] C4
+**🚨 AUDIT ALERT**
+
+@🐺Wardens  The **Initia Move** audit is now closed! Huge thanks to everyone who participated 🔍, whether you submitted a finding or not.
+
+What's next: The sponsor team and judge will review the findings over the next couple of weeks.
+
+{Reactions}
+🇼 (5) 🇪 (5) 🇳 (5) 🔥 (2) 
+
+[02/19/2025 02:49] p4y4b13
+Wen results, it's showing awarding on website
+
+
+[02/19/2025 02:49] itsmetechjay
+We are working on it and will post them soon.
+
+{Reactions}
+🫡 (2) 
+
+[02/19/2025 13:16] p4y4b13
+Congratulations 🎉 all
+
+{Reactions}
+🔥 (6) 
+
+[02/19/2025 13:17] unnamedeth.lens
+congrats all 🙏
+
+{Reactions}
+hi5 
+
+[02/19/2025 13:17] d4r3d3v1l
+@p4y4b13 🔥🔥
+
+{Reactions}
+❤️ 
+
+[02/19/2025 13:53] daniel526
+congratulations @p4y4b13
+
+{Reactions}
+🫡 ❤️ 
+
+[02/19/2025 13:56] afriauditor
+Congratulations @Rhaydden 🎉🎉🎉🎉
+
+{Reactions}
+💜 
+
+[02/21/2025 14:00] thebrittfactor
+❗Wardens - please note that we have noticed an error in the awarding of Initia Move. There was one submission that should have been marked `out of scope` as a known issue.  We will get this adjusted shortly.
+
+In the meantime we have deleted the awarding post here and in #📢・c4-updates.  We’ll get a new/updated award announcement posted as soon as possible. Thank you for your patience and understanding.
+
+{Reactions}
+👍 (2) 🇼 (3) 🇪 (3) 🇳 (3) 
+
+[02/22/2025 06:56] p_laksmana
+When can we expect results ?
+
+{Reactions}
+🇼 (3) 🇪 (3) 🇳 (3) 
+
+[02/22/2025 19:27] thebrittfactor
+We anticipate to have these re-announced on Monday.
+
+{Reactions}
+andbang (2) 🇼 🇪 🇳 
+
+[02/24/2025 08:29] sh15h4nk
+Please check DM
+
+{Reactions}
+🧵 
+
+[02/24/2025 15:58] p4y4b13
+@thebrittfactor | C4 can we expect today ?
+
+
+[02/24/2025 15:59] itsmetechjay
+We are working on it - should be able to announce sometime today.
+
+{Reactions}
+🫡 (2) 
+
+[02/24/2025 20:11] thebrittfactor
+🤑 🎉  Awards for **Initia Move**:
+
+$26,055.75 USDC » @p4y4b13
+$12,251.88 USDC » @0xluk3
+$7,469.25 USDC » @Rhaydden
+$4,519.02 USDC » @Laksmana
+$3,189.89 USDC » @d4r3d3v1l
+$1,839.91 USDC » @SadBase
+$1,042.85 USDC » @Denied
+$686.60 USDC » @gss1
+$686.60 USDC » @0xcb90f054
+$514.95 USDC » @den-sosnowsky
+$343.30 USDC » Heavyweight_hunters (@chaosSR and @0xriazaka)
+
+🏁 Findings summary
+--------------------------------------
+4 High risk findings
+4 Med risk findings
+33 wardens participated
+
+Top Hunter: p4y4b13
+Top Gatherer: p4y4b13
+Top QA report: Rhaydden
+
+Awards will be distributed on Polygon within the next week. Congratulations all!  💸 💸 💸
+
+⚠️ Awardees, be sure to [complete your tax reporting info](https://docs.code4rena.com/awarding/incentive-model-and-awards/awarding-process#tax-information-for-code4rena-contributors-wardens-judges-etc) if you haven't already. This must be completed within 30 days (i.e. before Wednesday, 26 March 2025) to receive your award distribution for this audit.
+
+The leaderboard will be updated in a couple days with these audit results. 
+
+*Note: If you participated in this audit and don’t see your name on this list, please wait until the report is published and the findings repo is made public to check on your submissions.*
+
+{Reactions}
+🫡 (6) 🔥 (2) 
+
+[03/05/2025 03:36] p_laksmana
+Wen payout?
+
+{Reactions}
+🇼 (2) 🇪 (2) 🇳 (2) 
+
+[03/05/2025 14:43] thebrittfactor
+I've inquired with our payments team.
+
+
+[03/14/2025 20:13] itsmetechjay
+ℹ️ This channel is pending archive.   As a result, any private threads will be permanently deleted in 03/21/2025 22:00. Please make sure to grab anything you might need before then.
+
+
+[03/20/2025 20:02] C4
+ℹ️ Reminder: this channel will be deleted after 24 hours.
+
+
+==============================================================
+Exported 44 message(s)
+==============================================================
